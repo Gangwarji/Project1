@@ -1,0 +1,156 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.main {
+  height: 713px;
+  width: 100%;
+  display: flex;
+  background-image:url('bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  height: 340px;
+  width: 340px;
+  box-shadow: 0 5px 10px 4px grey;
+  position: relative;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.first-pera{
+  width:100%;
+  height:12vh;
+}
+#peraH {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+}
+.illus {
+  margin-top: -10px;
+  height: 50%;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+#peraB {
+  margin: -10px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgba(180,186,207,255);
+  position: relative;
+}
+.form {
+  height: 340px;
+  width: 240px;
+  background-color: rgba(41,46,63,255);
+  box-shadow: 0 5px 10px 4px grey;
+}
+#heading {
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 1px 10px 1px 25px;
+  font-weight: bold;
+  color: rgba(73,186,159,255);
+  font-family: 'poppins';
+}
+i.fa-solid.fa-xmark {
+  color: white;
+  margin-top:5px;
+  margin-left:200px;
+}
+.text {
+  height: 100px;
+  width: auto;
+  text-align: center;
+  margin: 3px 8px 0px 15px;
+  justify-content: space-evenly;
+}
+input[type="text"] {
+  height: 25px;
+  margin-top: 10px;
+  background-color: rgba(73,77,92,255);
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+}
+.btn {
+  margin: 52px 5px 1px 13px;
+  text-align: center;
+  background-color: rgba(83,218,178,255);
+  color: white;
+  letter-spacing:2px;
+  padding:10px 36px;
+  border-radius:4px;
+  cursor: pointer;
+}
+.btn:hover{
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: white;
+  color: rgba(83,218,178,255);
+}
+.popup{
+  height: 180px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  transform: translateX(350px);
+  visibility: hidden;
+  z-index: 1;
+  box-shadow: 0 3px 3px 0;
+}
+.open-popup{
+  visibility:visible;
+  
+}
+ion-icon.md.hydrated {
+    font-size: xxx-large;
+}
+.btn-ok{
+  margin: 15px 3px 1px 8px;
+  text-align: center;
+  background-color: rgba(83,218,178,255);
+  color: white;
+  letter-spacing:1px;
+  padding:5px 36px;
+  border-radius:5px;
+  cursor: pointer;
+}
+#paraL {
+  margin: 20px 10px 1px 10px;
+  font-size: 12px;
+  text-align: center;
+  color: rgba(102,106,121,255);
+  font-family: 'poppins';
+}
+@media (max-width: 980px){
+  .main{
+    background-size: cover;
+    height: 100vh;
+    
+  }
+  .illus{
+    transform: translateY(-40px);
+  }
+  #peraB{
+    transform: translateY(-40px);
+  }
+}
