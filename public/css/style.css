@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@1,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---start navbar --- */
+
+.navbar{
+    height: 25vh;
+    width: 100%;
+    background-image: linear-gradient(#42275a, #734b6d);
+    box-shadow: 0 10px 40px;
+}
+.nav_section{
+    flex-direction:column;
+    font-size: xx-large;
+    color:rgb(22, 10, 65);
+}
+.nav_top{
+    display: flex;
+    height: 12vh;
+}
+.nav_title{
+    text-decoration: none;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: 'Saira', sans-serif;;
+    font-weight: 500;
+    cursor:default;
+}
+.nav_ng{
+    margin-left: 23vh;
+    font-size: 6vh;
+}
+.nav_compnents{
+    width: 50%;
+    display: block;
+    cursor:default;
+}
+.navbar-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    
+}
+.navbar-link{
+    text-decoration: none;
+    padding: 0 2vh;
+    color:rgb(22, 10, 65);
+}
+.navbar-link:hover{
+    font-size: 7vh;
+    transition: 0.5s;
+}
+.nav_wel{
+    font-size: 10vh;
+    justify-content: center;
+    margin-left: 45vh;
+    text-transform: capitalize;
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+    cursor:default;
+}
+
+/* ---end navbar --- */
+
+/*---start index page --- */
+
+.i_container{
+    height: 55vh;
+    width: 100vh;
+    justify-content: center;
+    display: grid;
+    border-radius: 10vh;
+    margin: 10vh;
+    margin-left: 50vh;
+    background-color: #42275a;
+}
+.i_fcol{
+    display: grid;
+    grid-template-columns: 44vh 44vh;
+    grid-template-rows :24vh 24vh;
+    align-content:space-evenly ;
+    height: 50vh;
+    width: 90vh;
+    margin-top: 18px;
+    margin-left: 4vh;
+    color: #b8bfc4 ;
+}
+.col{
+    height: 22vh;
+    width: 42vh;
+    box-shadow: 1px 2px 4px;
+    cursor:pointer;
+
+    
+}
+.col:hover{
+    height: 23vh;
+    width: 43vh;
+    transition: 0.5s;
+}
+.i_h h1{
+    text-transform: capitalize;
+    padding-left: 2vh;
+    padding-top: 2vh;
+}
+.i_p p{
+    margin-top: 3vh;
+}
+
+/* --- end index page --- */
+
+/* --- start about us page --- */
+
+.a_container{
+    height: 70vh;
+    width: 160vh;
+    margin-left: 20vh;
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: 160vh;
+    grid-template-rows: 9vh;
+    color: #42275a;
+}
+.a_heading h1{
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 6vh;
+    display: flex;
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+}
+.a_row h2{
+    text-transform: capitalize;
+    font-size: 4vh;
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+}
+.a_row p{
+    font-size: 3vh;
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+}
+
+/* --- end about us page --- */
+
+/* --- start register page --- */
+.main {
+    height: 560px;
+    margin-left: -230px;
+    display: flex;
+    background-image:url('bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .content {
+    height: 340px;
+    width: 340px;
+    box-shadow: 0 5px 10px 4px grey;
+    position: relative;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .first-pera{
+    width:100%;
+    height:12vh;
+  }
+  #peraH {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+  }
+  .illus {
+    margin-top: -10px;
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+  }
+  #peraB {
+    margin: -10px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgba(180,186,207,255);
+    position: relative;
+  }
+  .form {
+    height: 340px;
+    width: 240px;
+    background-color: rgba(41,46,63,255);
+    box-shadow: 0 5px 10px 4px grey;
+  }
+  #heading {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 1px 10px 1px 25px;
+    font-weight: bold;
+    color: rgba(73,186,159,255);
+    font-family: 'poppins';
+  }
+  i.fa-solid.fa-xmark {
+    color: white;
+    margin-top:5px;
+    margin-left:200px;
+  }
+  .text {
+    height: 150px;
+    width: auto;
+    text-align: center;
+    margin: 3px 8px 0px 15px;
+    justify-content: space-evenly;
+  }
+  input[type="text"] {
+    height: 25px;
+    margin-top: 10px;
+    background-color: rgba(73,77,92,255);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .btn {
+    text-align: center;
+    background-color: rgba(83,218,178,255);
+    color: white;
+    letter-spacing:2px;
+    padding:10px 36px;
+    border-radius:4px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    color: rgba(83,218,178,255);
+  }
+  .popup{
+    height: 180px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    transform: translateX(350px);
+    visibility: hidden;
+    z-index: 1;
+    box-shadow: 0 3px 3px 0;
+    transition: 2.5s;
+  }
+  .open-popup{
+    visibility:visible;
+    transition: 0.5s;
+    
+  }
+  ion-icon.md.hydrated {
+      font-size: xxx-large;
+  }
+  .btn-ok{
+    margin: 15px 3px 1px 8px;
+    text-align: center;
+    background-color: rgba(83,218,178,255);
+    color: white;
+    letter-spacing:1px;
+    padding:5px 36px;
+    border-radius:5px;
+    cursor: pointer;
+  }
+  #paraL {
+    margin: 20px 10px 1px 10px;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(102,106,121,255);
+    font-family: 'poppins';
+  }
