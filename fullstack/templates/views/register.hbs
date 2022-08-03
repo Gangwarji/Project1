@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    {{>navbar}}
+    
+    <div class="main">
+      <div class="popup" id="popup">
+        <ion-icon name="checkmark-done-outline" ></ion-icon>
+        <h2>THANK YOU!</h2>
+        <button class="btn-ok" onclick="closepopup()">ok</button>
+      </div>
+        <div class="content">
+            <div class="first-pera">
+                <p id="peraH">Get Everything You Need<br />For Creating WordPress<br />Website.</p>
+            </div>
+            <img class="illus" src="illustration.png " />
+            <div class="second-pera">
+                <p id="peraB">All-in-one Multifunctional Subscribe<br />Service Perfect for Launching All kinds of<br />WordPress Projects!</p>
+            </div>
+        </div>
+        <form class="form" action="/register" method="post">
+            <i class="fa-solid fa-xmark"></i>
+            <h1 id="heading">SUBSCRIBE AND GET<br />YOUR BONUS!</h1>
+            <section class="text">
+                <div>
+                    <input type="text" placeholder=" Email address" name="Email">
+                </div>
+                <div>
+                    <input type="text" placeholder=" First name" name="name">
+                </div>
+                <div>
+                    <input type="text" placeholder=" username" name="username">
+                </div>
+                <div>
+                    <input type="text" placeholder=" phone" name="phone">
+                </div>
+            </section>
+            <div class="pop">
+              <button class="btn" onclick="openpopup()">STAY UPDATE</button>
+              
+            </div>
+            <div>
+                <p id="paraL">
+                    Your Information will never be<br />shared with any third party.
+                </p>
+            </div>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/5e9d2c5ffd.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+  let popup = document.getElementById("popup");
+
+  function openpopup(){
+    popup.classList.add("open-popup")
+  }
+  function closepopup(){
+    popup.classList.remove("open-popup")
+  }
+
+</script>
+</body>
+</html>
